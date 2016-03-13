@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="tagmem" module="tagmem" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2010 12 23 15:34:15.379" version="2.0" type="Module" synthesis="synplify" source_format="Schematic/Verilog HDL">
+  <Package>
+		<File name="" type="mem" modified="2010 12 23 15:34:15.301"/>
+		<File name="tagmem.lpc" type="lpc" modified="2010 12 23 15:34:13.522"/>
+		<File name="tagmem.v" type="top_level_verilog" modified="2010 12 23 15:34:13.631"/>
+		<File name="tagmem_tmpl.v" type="template_verilog" modified="2010 12 23 15:34:13.663"/>
+  </Package>
+</DiamondModule>
