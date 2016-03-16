@@ -5,36 +5,36 @@
             <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Bitgen" build_result="2" update_result="0" update_time="1457880617"/>
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1458110373"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1457880440">
-            <Task name="Map" build_result="2" update_result="0" update_time="1457880440"/>
+        <Milestone name="Map" build_result="2" build_time="1458110125">
+            <Task name="Map" build_result="2" update_result="0" update_time="1458110125"/>
             <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1457880608">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1457880608"/>
+        <Milestone name="PAR" build_result="2" build_time="1458110362">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1458110362"/>
             <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1457880424">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1457880424"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1458110110">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1458110110"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1457880374"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1458110070"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1457880430">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1457880430"/>
+        <Milestone name="Translate" build_result="2" build_time="1458110115">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1458110115"/>
         </Milestone>
-        <Report name="ts7500_opencore.bgn" last_build_time="1457880616" last_build_size="3336"/>
-        <Report name="ts7500_opencore.edi" last_build_time="1457880413" last_build_size="1194502"/>
-        <Report name="ts7500_opencore.jed" last_build_time="1457880617" last_build_size="1255166"/>
-        <Report name="ts7500_opencore.ncd" last_build_time="1457880608" last_build_size="3716068"/>
-        <Report name="ts7500_opencore.ngd" last_build_time="1457880429" last_build_size="3668298"/>
-        <Report name="ts7500_opencore_map.ncd" last_build_time="1457880439" last_build_size="2257978"/>
+        <Report name="ts7500_opencore.bgn" last_build_time="1458110372" last_build_size="3336"/>
+        <Report name="ts7500_opencore.edi" last_build_time="1458110100" last_build_size="1365377"/>
+        <Report name="ts7500_opencore.jed" last_build_time="1458110372" last_build_size="1255163"/>
+        <Report name="ts7500_opencore.ncd" last_build_time="1458110362" last_build_size="3756804"/>
+        <Report name="ts7500_opencore.ngd" last_build_time="1458110115" last_build_size="3814140"/>
+        <Report name="ts7500_opencore_map.ncd" last_build_time="1458110124" last_build_size="2260542"/>
     </Strategy>
 </BuildStatus>

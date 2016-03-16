@@ -1156,548 +1156,613 @@
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CL168 :"/mnt/hgfs/ts7500-px4-fpga/can_ram.v":24:8:24:21|Pruning instance scuba_vhi_inst -- not in use ...</Text>
-                    <Dynamic>CL168 :"/mnt/hgfs/ts7500-px4-fpga/can_ram.v":24:8:24:21|Pruning instance scuba_vhi_inst -- not in use ...</Dynamic>
-                    <Navigation>CL168</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_ram.v</Navigation>
-                    <Navigation>24</Navigation>
-                    <Navigation>8</Navigation>
-                    <Navigation>24</Navigation>
-                    <Navigation>21</Navigation>
-                    <Navigation>Pruning instance scuba_vhi_inst -- not in use ...</Navigation>
+                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":73:4:73:11|No assignment to rc_found</Text>
+                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":73:4:73:11|No assignment to rc_found</Dynamic>
+                    <Navigation>CG133</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>73</Navigation>
+                    <Navigation>4</Navigation>
+                    <Navigation>73</Navigation>
+                    <Navigation>11</Navigation>
+                    <Navigation>No assignment to rc_found</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CL169 :"/mnt/hgfs/ts7500-px4-fpga/can_bsp.v":1740:8:1740:24|Pruning register tmp_fifo_7_[7:0]</Text>
-                    <Dynamic>CL169 :"/mnt/hgfs/ts7500-px4-fpga/can_bsp.v":1740:8:1740:24|Pruning register tmp_fifo_7_[7:0]</Dynamic>
+                    <Text>WARNING - CL169 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register channel_val_8_[15:0]</Text>
+                    <Dynamic>CL169 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register channel_val_8_[15:0]</Dynamic>
                     <Navigation>CL169</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_bsp.v</Navigation>
-                    <Navigation>1740</Navigation>
-                    <Navigation>8</Navigation>
-                    <Navigation>1740</Navigation>
-                    <Navigation>24</Navigation>
-                    <Navigation>Pruning register tmp_fifo_7_[7:0] </Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Pruning register channel_val_8_[15:0] </Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CL169 :"/mnt/hgfs/ts7500-px4-fpga/can_bsp.v":1740:8:1740:24|Pruning register tmp_fifo_6_[7:0]</Text>
-                    <Dynamic>CL169 :"/mnt/hgfs/ts7500-px4-fpga/can_bsp.v":1740:8:1740:24|Pruning register tmp_fifo_6_[7:0]</Dynamic>
-                    <Navigation>CL169</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_bsp.v</Navigation>
-                    <Navigation>1740</Navigation>
-                    <Navigation>8</Navigation>
-                    <Navigation>1740</Navigation>
-                    <Navigation>24</Navigation>
-                    <Navigation>Pruning register tmp_fifo_6_[7:0] </Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_0_[12] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_0_[12] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_0_[12] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CL169 :"/mnt/hgfs/ts7500-px4-fpga/can_bsp.v":1740:8:1740:24|Pruning register tmp_fifo_5_[7:0]</Text>
-                    <Dynamic>CL169 :"/mnt/hgfs/ts7500-px4-fpga/can_bsp.v":1740:8:1740:24|Pruning register tmp_fifo_5_[7:0]</Dynamic>
-                    <Navigation>CL169</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_bsp.v</Navigation>
-                    <Navigation>1740</Navigation>
-                    <Navigation>8</Navigation>
-                    <Navigation>1740</Navigation>
-                    <Navigation>24</Navigation>
-                    <Navigation>Pruning register tmp_fifo_5_[7:0] </Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_0_[13] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_0_[13] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_0_[13] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CL169 :"/mnt/hgfs/ts7500-px4-fpga/can_bsp.v":1740:8:1740:24|Pruning register tmp_fifo_4_[7:0]</Text>
-                    <Dynamic>CL169 :"/mnt/hgfs/ts7500-px4-fpga/can_bsp.v":1740:8:1740:24|Pruning register tmp_fifo_4_[7:0]</Dynamic>
-                    <Navigation>CL169</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_bsp.v</Navigation>
-                    <Navigation>1740</Navigation>
-                    <Navigation>8</Navigation>
-                    <Navigation>1740</Navigation>
-                    <Navigation>24</Navigation>
-                    <Navigation>Pruning register tmp_fifo_4_[7:0] </Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_0_[14] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_0_[14] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_0_[14] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CL169 :"/mnt/hgfs/ts7500-px4-fpga/can_bsp.v":1740:8:1740:24|Pruning register tmp_fifo_3_[7:0]</Text>
-                    <Dynamic>CL169 :"/mnt/hgfs/ts7500-px4-fpga/can_bsp.v":1740:8:1740:24|Pruning register tmp_fifo_3_[7:0]</Dynamic>
-                    <Navigation>CL169</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_bsp.v</Navigation>
-                    <Navigation>1740</Navigation>
-                    <Navigation>8</Navigation>
-                    <Navigation>1740</Navigation>
-                    <Navigation>24</Navigation>
-                    <Navigation>Pruning register tmp_fifo_3_[7:0] </Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_0_[15] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_0_[15] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_0_[15] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CL169 :"/mnt/hgfs/ts7500-px4-fpga/can_bsp.v":1740:8:1740:24|Pruning register tmp_fifo_2_[7:0]</Text>
-                    <Dynamic>CL169 :"/mnt/hgfs/ts7500-px4-fpga/can_bsp.v":1740:8:1740:24|Pruning register tmp_fifo_2_[7:0]</Dynamic>
-                    <Navigation>CL169</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_bsp.v</Navigation>
-                    <Navigation>1740</Navigation>
-                    <Navigation>8</Navigation>
-                    <Navigation>1740</Navigation>
-                    <Navigation>24</Navigation>
-                    <Navigation>Pruning register tmp_fifo_2_[7:0] </Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_1_[12] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_1_[12] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_1_[12] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CS263 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":833:14:833:21|Port-width mismatch for port wbs1_dat_i. Formal has width 32, Actual 8</Text>
-                    <Dynamic>CS263 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":833:14:833:21|Port-width mismatch for port wbs1_dat_i. Formal has width 32, Actual 8</Dynamic>
-                    <Navigation>CS263</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>833</Navigation>
-                    <Navigation>14</Navigation>
-                    <Navigation>833</Navigation>
-                    <Navigation>21</Navigation>
-                    <Navigation>Port-width mismatch for port wbs1_dat_i. Formal has width 32, Actual 8</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_1_[13] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_1_[13] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_1_[13] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CS263 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":836:14:836:21|Port-width mismatch for port wbs1_adr_i. Formal has width 32, Actual 8</Text>
-                    <Dynamic>CS263 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":836:14:836:21|Port-width mismatch for port wbs1_adr_i. Formal has width 32, Actual 8</Dynamic>
-                    <Navigation>CS263</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>836</Navigation>
-                    <Navigation>14</Navigation>
-                    <Navigation>836</Navigation>
-                    <Navigation>21</Navigation>
-                    <Navigation>Port-width mismatch for port wbs1_adr_i. Formal has width 32, Actual 8</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_1_[14] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_1_[14] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_1_[14] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs1_sel_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs1_sel_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs1_sel_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_1_[15] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_1_[15] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_1_[15] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs2_cyc_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs2_cyc_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs2_cyc_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_2_[12] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_2_[12] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_2_[12] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs2_stb_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs2_stb_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs2_stb_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_2_[13] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_2_[13] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_2_[13] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs2_dat_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs2_dat_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs2_dat_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_2_[14] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_2_[14] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_2_[14] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs2_we_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs2_we_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs2_we_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_2_[15] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_2_[15] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_2_[15] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs2_adr_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs2_adr_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs2_adr_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_3_[12] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_3_[12] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_3_[12] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs2_sel_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs2_sel_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs2_sel_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_3_[13] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_3_[13] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_3_[13] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs3_cyc_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs3_cyc_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs3_cyc_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_3_[14] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_3_[14] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_3_[14] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs3_stb_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs3_stb_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs3_stb_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_3_[15] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_3_[15] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_3_[15] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs3_dat_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs3_dat_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs3_dat_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_4_[12] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_4_[12] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_4_[12] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs3_we_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs3_we_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs3_we_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_4_[13] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_4_[13] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_4_[13] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs3_adr_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs3_adr_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs3_adr_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_4_[14] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_4_[14] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_4_[14] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs3_sel_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs3_sel_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs3_sel_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_4_[15] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_4_[15] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_4_[15] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs4_cyc_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs4_cyc_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs4_cyc_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_5_[12] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_5_[12] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_5_[12] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs4_stb_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs4_stb_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs4_stb_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_5_[13] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_5_[13] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_5_[13] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs4_dat_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs4_dat_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs4_dat_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_5_[14] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_5_[14] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_5_[14] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs4_we_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs4_we_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs4_we_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_5_[15] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_5_[15] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_5_[15] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs4_adr_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs4_adr_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs4_adr_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_6_[12] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_6_[12] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_6_[12] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs4_sel_i on instance resynccore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":826:10:826:19|Undriven input wbs4_sel_i on instance resynccore, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>10</Navigation>
-                    <Navigation>826</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Undriven input wbs4_sel_i on instance resynccore, tying to 0</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_6_[13] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_6_[13] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_6_[13] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CS263 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":845:13:845:20|Port-width mismatch for port wbm_dat_i. Formal has width 32, Actual 8</Text>
-                    <Dynamic>CS263 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":845:13:845:20|Port-width mismatch for port wbm_dat_i. Formal has width 32, Actual 8</Dynamic>
-                    <Navigation>CS263</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>845</Navigation>
-                    <Navigation>13</Navigation>
-                    <Navigation>845</Navigation>
-                    <Navigation>20</Navigation>
-                    <Navigation>Port-width mismatch for port wbm_dat_i. Formal has width 32, Actual 8</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_6_[14] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_6_[14] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_6_[14] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CS263 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":834:14:834:21|Port-width mismatch for port wbs1_dat_o. Formal has width 32, Actual 8</Text>
-                    <Dynamic>CS263 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":834:14:834:21|Port-width mismatch for port wbs1_dat_o. Formal has width 32, Actual 8</Dynamic>
-                    <Navigation>CS263</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>834</Navigation>
-                    <Navigation>14</Navigation>
-                    <Navigation>834</Navigation>
-                    <Navigation>21</Navigation>
-                    <Navigation>Port-width mismatch for port wbs1_dat_o. Formal has width 32, Actual 8</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_6_[15] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_6_[15] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_6_[15] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CS263 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":843:13:843:16|Port-width mismatch for port wbm_adr_o. Formal has width 32, Actual 8</Text>
-                    <Dynamic>CS263 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":843:13:843:16|Port-width mismatch for port wbm_adr_o. Formal has width 32, Actual 8</Dynamic>
-                    <Navigation>CS263</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>843</Navigation>
-                    <Navigation>13</Navigation>
-                    <Navigation>843</Navigation>
-                    <Navigation>16</Navigation>
-                    <Navigation>Port-width mismatch for port wbm_adr_o. Formal has width 32, Actual 8</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_7_[12] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_7_[12] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_7_[12] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CS263 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":844:13:844:19|Port-width mismatch for port wbm_dat_o. Formal has width 32, Actual 8</Text>
-                    <Dynamic>CS263 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":844:13:844:19|Port-width mismatch for port wbm_dat_o. Formal has width 32, Actual 8</Dynamic>
-                    <Navigation>CS263</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>844</Navigation>
-                    <Navigation>13</Navigation>
-                    <Navigation>844</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Port-width mismatch for port wbm_dat_o. Formal has width 32, Actual 8</Navigation>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_7_[13] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_7_[13] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_7_[13] to a constant 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":308:15:308:20|No assignment to wb_ack</Text>
-                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":308:15:308:20|No assignment to wb_ack</Dynamic>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_7_[14] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_7_[14] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_7_[14] to a constant 0</Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_7_[15] to a constant 0</Text>
+                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Optimizing register bit channel_val_7_[15] to a constant 0</Dynamic>
+                    <Navigation>CL190</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Optimizing register bit channel_val_7_[15] to a constant 0</Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_0_[15:0]</Text>
+                    <Dynamic>CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_0_[15:0]</Dynamic>
+                    <Navigation>CL279</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Pruning register bits 15 to 12 of channel_val_0_[15:0] </Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_1_[15:0]</Text>
+                    <Dynamic>CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_1_[15:0]</Dynamic>
+                    <Navigation>CL279</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Pruning register bits 15 to 12 of channel_val_1_[15:0] </Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_2_[15:0]</Text>
+                    <Dynamic>CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_2_[15:0]</Dynamic>
+                    <Navigation>CL279</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Pruning register bits 15 to 12 of channel_val_2_[15:0] </Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_3_[15:0]</Text>
+                    <Dynamic>CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_3_[15:0]</Dynamic>
+                    <Navigation>CL279</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Pruning register bits 15 to 12 of channel_val_3_[15:0] </Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_4_[15:0]</Text>
+                    <Dynamic>CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_4_[15:0]</Dynamic>
+                    <Navigation>CL279</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Pruning register bits 15 to 12 of channel_val_4_[15:0] </Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_5_[15:0]</Text>
+                    <Dynamic>CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_5_[15:0]</Dynamic>
+                    <Navigation>CL279</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Pruning register bits 15 to 12 of channel_val_5_[15:0] </Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_6_[15:0]</Text>
+                    <Dynamic>CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_6_[15:0]</Dynamic>
+                    <Navigation>CL279</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Pruning register bits 15 to 12 of channel_val_6_[15:0] </Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_7_[15:0]</Text>
+                    <Dynamic>CL279 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":75:0:75:5|Pruning register bits 15 to 12 of channel_val_7_[15:0]</Dynamic>
+                    <Navigation>CL279</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>75</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Pruning register bits 15 to 12 of channel_val_7_[15:0] </Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":134:11:134:18|No assignment to temp_out</Text>
+                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":134:11:134:18|No assignment to temp_out</Dynamic>
                     <Navigation>CG133</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>308</Navigation>
-                    <Navigation>15</Navigation>
-                    <Navigation>308</Navigation>
-                    <Navigation>20</Navigation>
-                    <Navigation>No assignment to wb_ack</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>134</Navigation>
+                    <Navigation>11</Navigation>
+                    <Navigation>134</Navigation>
+                    <Navigation>18</Navigation>
+                    <Navigation>No assignment to temp_out</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":309:15:309:22|No assignment to cs_sync1</Text>
-                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":309:15:309:22|No assignment to cs_sync1</Dynamic>
+                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":154:11:154:18|No assignment to counter1</Text>
+                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":154:11:154:18|No assignment to counter1</Dynamic>
                     <Navigation>CG133</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>309</Navigation>
-                    <Navigation>15</Navigation>
-                    <Navigation>309</Navigation>
-                    <Navigation>22</Navigation>
-                    <Navigation>No assignment to cs_sync1</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>154</Navigation>
+                    <Navigation>11</Navigation>
+                    <Navigation>154</Navigation>
+                    <Navigation>18</Navigation>
+                    <Navigation>No assignment to counter1</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":310:15:310:22|No assignment to cs_sync2</Text>
-                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":310:15:310:22|No assignment to cs_sync2</Dynamic>
+                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":155:11:155:18|No assignment to counter2</Text>
+                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":155:11:155:18|No assignment to counter2</Dynamic>
                     <Navigation>CG133</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>310</Navigation>
-                    <Navigation>15</Navigation>
-                    <Navigation>310</Navigation>
-                    <Navigation>22</Navigation>
-                    <Navigation>No assignment to cs_sync2</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>155</Navigation>
+                    <Navigation>11</Navigation>
+                    <Navigation>155</Navigation>
+                    <Navigation>18</Navigation>
+                    <Navigation>No assignment to counter2</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":311:15:311:22|No assignment to cs_sync3</Text>
-                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":311:15:311:22|No assignment to cs_sync3</Dynamic>
+                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":156:11:156:18|No assignment to counter3</Text>
+                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":156:11:156:18|No assignment to counter3</Dynamic>
                     <Navigation>CG133</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>311</Navigation>
-                    <Navigation>15</Navigation>
-                    <Navigation>311</Navigation>
-                    <Navigation>22</Navigation>
-                    <Navigation>No assignment to cs_sync3</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>156</Navigation>
+                    <Navigation>11</Navigation>
+                    <Navigation>156</Navigation>
+                    <Navigation>18</Navigation>
+                    <Navigation>No assignment to counter3</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":313:15:313:21|No assignment to cs_ack1</Text>
-                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":313:15:313:21|No assignment to cs_ack1</Dynamic>
+                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":157:11:157:18|No assignment to counter4</Text>
+                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":157:11:157:18|No assignment to counter4</Dynamic>
                     <Navigation>CG133</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>313</Navigation>
-                    <Navigation>15</Navigation>
-                    <Navigation>313</Navigation>
-                    <Navigation>21</Navigation>
-                    <Navigation>No assignment to cs_ack1</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":314:15:314:21|No assignment to cs_ack2</Text>
-                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":314:15:314:21|No assignment to cs_ack2</Dynamic>
-                    <Navigation>CG133</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>314</Navigation>
-                    <Navigation>15</Navigation>
-                    <Navigation>314</Navigation>
-                    <Navigation>21</Navigation>
-                    <Navigation>No assignment to cs_ack2</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":315:15:315:21|No assignment to cs_ack3</Text>
-                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":315:15:315:21|No assignment to cs_ack3</Dynamic>
-                    <Navigation>CG133</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>315</Navigation>
-                    <Navigation>15</Navigation>
-                    <Navigation>315</Navigation>
-                    <Navigation>21</Navigation>
-                    <Navigation>No assignment to cs_ack3</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":316:15:316:26|No assignment to cs_sync_rst1</Text>
-                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":316:15:316:26|No assignment to cs_sync_rst1</Dynamic>
-                    <Navigation>CG133</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>316</Navigation>
-                    <Navigation>15</Navigation>
-                    <Navigation>316</Navigation>
-                    <Navigation>26</Navigation>
-                    <Navigation>No assignment to cs_sync_rst1</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":317:15:317:26|No assignment to cs_sync_rst2</Text>
-                    <Dynamic>CG133 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":317:15:317:26|No assignment to cs_sync_rst2</Dynamic>
-                    <Navigation>CG133</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>317</Navigation>
-                    <Navigation>15</Navigation>
-                    <Navigation>317</Navigation>
-                    <Navigation>26</Navigation>
-                    <Navigation>No assignment to cs_sync_rst2</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CG360 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":825:21:825:23|No assignment to wire ack</Text>
-                    <Dynamic>CG360 :"/mnt/hgfs/ts7500-px4-fpga/can_top.v":825:21:825:23|No assignment to wire ack</Dynamic>
-                    <Navigation>CG360</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_top.v</Navigation>
-                    <Navigation>825</Navigation>
-                    <Navigation>21</Navigation>
-                    <Navigation>825</Navigation>
-                    <Navigation>23</Navigation>
-                    <Navigation>No assignment to wire ack</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>157</Navigation>
+                    <Navigation>11</Navigation>
+                    <Navigation>157</Navigation>
+                    <Navigation>18</Navigation>
+                    <Navigation>No assignment to counter4</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
@@ -2339,80 +2404,67 @@
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CS263 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":656:12:656:24|Port-width mismatch for port wb_adr_i. Formal has width 32, Actual 7</Text>
-                    <Dynamic>CS263 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":656:12:656:24|Port-width mismatch for port wb_adr_i. Formal has width 32, Actual 7</Dynamic>
+                    <Text>WARNING - CS263 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":657:12:657:24|Port-width mismatch for port wb_adr_i. Formal has width 32, Actual 7</Text>
+                    <Dynamic>CS263 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":657:12:657:24|Port-width mismatch for port wb_adr_i. Formal has width 32, Actual 7</Dynamic>
                     <Navigation>CS263</Navigation>
                     <Navigation>/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v</Navigation>
-                    <Navigation>656</Navigation>
+                    <Navigation>657</Navigation>
                     <Navigation>12</Navigation>
-                    <Navigation>656</Navigation>
+                    <Navigation>657</Navigation>
                     <Navigation>24</Navigation>
                     <Navigation>Port-width mismatch for port wb_adr_i. Formal has width 32, Actual 7</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CS263 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":703:12:703:23|Port-width mismatch for port wb_adr_i. Formal has width 16, Actual 7</Text>
-                    <Dynamic>CS263 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":703:12:703:23|Port-width mismatch for port wb_adr_i. Formal has width 16, Actual 7</Dynamic>
+                    <Text>WARNING - CS263 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":704:12:704:23|Port-width mismatch for port wb_adr_i. Formal has width 16, Actual 7</Text>
+                    <Dynamic>CS263 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":704:12:704:23|Port-width mismatch for port wb_adr_i. Formal has width 16, Actual 7</Dynamic>
                     <Navigation>CS263</Navigation>
                     <Navigation>/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v</Navigation>
-                    <Navigation>703</Navigation>
+                    <Navigation>704</Navigation>
                     <Navigation>12</Navigation>
-                    <Navigation>703</Navigation>
+                    <Navigation>704</Navigation>
                     <Navigation>23</Navigation>
                     <Navigation>Port-width mismatch for port wb_adr_i. Formal has width 16, Actual 7</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":696:19:696:26|Undriven input wb_sel_i on instance mwincore, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":696:19:696:26|Undriven input wb_sel_i on instance mwincore, tying to 0</Dynamic>
+                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":697:19:697:26|Undriven input wb_sel_i on instance mwincore, tying to 0</Text>
+                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":697:19:697:26|Undriven input wb_sel_i on instance mwincore, tying to 0</Dynamic>
                     <Navigation>CG781</Navigation>
                     <Navigation>/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v</Navigation>
-                    <Navigation>696</Navigation>
+                    <Navigation>697</Navigation>
                     <Navigation>19</Navigation>
-                    <Navigation>696</Navigation>
+                    <Navigation>697</Navigation>
                     <Navigation>26</Navigation>
                     <Navigation>Undriven input wb_sel_i on instance mwincore, tying to 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":731:4:731:16|Undriven input wb_we_i on instance pwm_generator, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":731:4:731:16|Undriven input wb_we_i on instance pwm_generator, tying to 0</Dynamic>
+                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":734:10:734:23|Undriven input wb_we_i on instance px4_logic_core, tying to 0</Text>
+                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":734:10:734:23|Undriven input wb_we_i on instance px4_logic_core, tying to 0</Dynamic>
                     <Navigation>CG781</Navigation>
                     <Navigation>/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v</Navigation>
-                    <Navigation>731</Navigation>
-                    <Navigation>4</Navigation>
-                    <Navigation>731</Navigation>
-                    <Navigation>16</Navigation>
-                    <Navigation>Undriven input wb_we_i on instance pwm_generator, tying to 0</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CS263 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":796:12:796:23|Port-width mismatch for port wb_adr_i. Formal has width 16, Actual 7</Text>
-                    <Dynamic>CS263 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":796:12:796:23|Port-width mismatch for port wb_adr_i. Formal has width 16, Actual 7</Dynamic>
-                    <Navigation>CS263</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v</Navigation>
-                    <Navigation>796</Navigation>
-                    <Navigation>12</Navigation>
-                    <Navigation>796</Navigation>
+                    <Navigation>734</Navigation>
+                    <Navigation>10</Navigation>
+                    <Navigation>734</Navigation>
                     <Navigation>23</Navigation>
-                    <Navigation>Port-width mismatch for port wb_adr_i. Formal has width 16, Actual 7</Navigation>
+                    <Navigation>Undriven input wb_we_i on instance px4_logic_core, tying to 0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CG781 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":789:18:789:26|Undriven input wb_sel_i on instance mwincore2, tying to 0</Text>
-                    <Dynamic>CG781 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":789:18:789:26|Undriven input wb_sel_i on instance mwincore2, tying to 0</Dynamic>
-                    <Navigation>CG781</Navigation>
+                    <Text>WARNING - CG360 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":253:5:253:12|No assignment to wire can_irqn</Text>
+                    <Dynamic>CG360 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":253:5:253:12|No assignment to wire can_irqn</Dynamic>
+                    <Navigation>CG360</Navigation>
                     <Navigation>/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v</Navigation>
-                    <Navigation>789</Navigation>
-                    <Navigation>18</Navigation>
-                    <Navigation>789</Navigation>
-                    <Navigation>26</Navigation>
-                    <Navigation>Undriven input wb_sel_i on instance mwincore2, tying to 0</Navigation>
+                    <Navigation>253</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>253</Navigation>
+                    <Navigation>12</Navigation>
+                    <Navigation>No assignment to wire can_irqn</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
@@ -2439,6 +2491,45 @@
                     <Navigation>501</Navigation>
                     <Navigation>32</Navigation>
                     <Navigation>No assignment to wire xuartwbs_ack</Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CG134 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":506:10:506:17|No assignment to bit 7 of xuart_rx</Text>
+                    <Dynamic>CG134 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":506:10:506:17|No assignment to bit 7 of xuart_rx</Dynamic>
+                    <Navigation>CG134</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v</Navigation>
+                    <Navigation>506</Navigation>
+                    <Navigation>10</Navigation>
+                    <Navigation>506</Navigation>
+                    <Navigation>17</Navigation>
+                    <Navigation>No assignment to bit 7 of xuart_rx</Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CG360 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":564:5:564:10|No assignment to wire can_tx</Text>
+                    <Dynamic>CG360 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":564:5:564:10|No assignment to wire can_tx</Dynamic>
+                    <Navigation>CG360</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v</Navigation>
+                    <Navigation>564</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>564</Navigation>
+                    <Navigation>10</Navigation>
+                    <Navigation>No assignment to wire can_tx</Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CG360 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":564:13:564:24|No assignment to wire can_wbaccess</Text>
+                    <Dynamic>CG360 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":564:13:564:24|No assignment to wire can_wbaccess</Dynamic>
+                    <Navigation>CG360</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v</Navigation>
+                    <Navigation>564</Navigation>
+                    <Navigation>13</Navigation>
+                    <Navigation>564</Navigation>
+                    <Navigation>24</Navigation>
+                    <Navigation>No assignment to wire can_wbaccess</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
@@ -2612,6 +2703,45 @@
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
+                    <Text>WARNING - CL189 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":511:0:511:5|Register bit xuart_rx_q[7] is always 0, optimizing ...</Text>
+                    <Dynamic>CL189 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":511:0:511:5|Register bit xuart_rx_q[7] is always 0, optimizing ...</Dynamic>
+                    <Navigation>CL189</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v</Navigation>
+                    <Navigation>511</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>511</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Register bit xuart_rx_q[7] is always 0, optimizing ...</Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CL260 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":511:0:511:5|Pruning register bit 7 of xuart_rx_q[7:0]</Text>
+                    <Dynamic>CL260 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":511:0:511:5|Pruning register bit 7 of xuart_rx_q[7:0]</Dynamic>
+                    <Navigation>CL260</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v</Navigation>
+                    <Navigation>511</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>511</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Pruning register bit 7 of xuart_rx_q[7:0] </Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - CL156 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":564:13:564:24|*Input can_wbaccess to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Text>
+                    <Dynamic>CL156 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":564:13:564:24|*Input can_wbaccess to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Dynamic>
+                    <Navigation>CL156</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v</Navigation>
+                    <Navigation>564</Navigation>
+                    <Navigation>13</Navigation>
+                    <Navigation>564</Navigation>
+                    <Navigation>24</Navigation>
+                    <Navigation>*Input can_wbaccess to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.</Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
                     <Text>WARNING - CL159 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":117:6:117:19|Input cpu_clkout_pad is unused</Text>
                     <Dynamic>CL159 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":117:6:117:19|Input cpu_clkout_pad is unused</Dynamic>
                     <Navigation>CL159</Navigation>
@@ -2690,143 +2820,13 @@
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - CL246 :"/mnt/hgfs/ts7500-px4-fpga/wb_memwindow.v":169:23:169:30|Input port bits 15 to 3 of wb_adr_i[15:0] are unused</Text>
-                    <Dynamic>CL246 :"/mnt/hgfs/ts7500-px4-fpga/wb_memwindow.v":169:23:169:30|Input port bits 15 to 3 of wb_adr_i[15:0] are unused</Dynamic>
-                    <Navigation>CL246</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/wb_memwindow.v</Navigation>
-                    <Navigation>169</Navigation>
-                    <Navigation>23</Navigation>
-                    <Navigation>169</Navigation>
-                    <Navigation>30</Navigation>
-                    <Navigation>Input port bits 15 to 3 of wb_adr_i[15:0] are unused</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CL247 :"/mnt/hgfs/ts7500-px4-fpga/wb_memwindow.v":169:23:169:30|Input port bit 0 of wb_adr_i[15:0] is unused</Text>
-                    <Dynamic>CL247 :"/mnt/hgfs/ts7500-px4-fpga/wb_memwindow.v":169:23:169:30|Input port bit 0 of wb_adr_i[15:0] is unused</Dynamic>
-                    <Navigation>CL247</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/wb_memwindow.v</Navigation>
-                    <Navigation>169</Navigation>
-                    <Navigation>23</Navigation>
-                    <Navigation>169</Navigation>
-                    <Navigation>30</Navigation>
-                    <Navigation>Input port bit 0 of wb_adr_i[15:0] is unused</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CL159 :"/mnt/hgfs/ts7500-px4-fpga/wb_memwindow.v":170:12:170:19|Input wb_sel_i is unused</Text>
-                    <Dynamic>CL159 :"/mnt/hgfs/ts7500-px4-fpga/wb_memwindow.v":170:12:170:19|Input wb_sel_i is unused</Dynamic>
+                    <Text>WARNING - CL159 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":136:54:136:60|Input wb_we_i is unused</Text>
+                    <Dynamic>CL159 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":136:54:136:60|Input wb_we_i is unused</Dynamic>
                     <Navigation>CL159</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/wb_memwindow.v</Navigation>
-                    <Navigation>170</Navigation>
-                    <Navigation>12</Navigation>
-                    <Navigation>170</Navigation>
-                    <Navigation>19</Navigation>
-                    <Navigation>Input wb_sel_i is unused</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CL246 :"/mnt/hgfs/ts7500-px4-fpga/can_bsp.v":404:14:404:17|Input port bits 7 to 6 of addr[7:0] are unused</Text>
-                    <Dynamic>CL246 :"/mnt/hgfs/ts7500-px4-fpga/can_bsp.v":404:14:404:17|Input port bits 7 to 6 of addr[7:0] are unused</Dynamic>
-                    <Navigation>CL246</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_bsp.v</Navigation>
-                    <Navigation>404</Navigation>
-                    <Navigation>14</Navigation>
-                    <Navigation>404</Navigation>
-                    <Navigation>17</Navigation>
-                    <Navigation>Input port bits 7 to 6 of addr[7:0] are unused</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CL246 :"/mnt/hgfs/ts7500-px4-fpga/can_fifo.v":32:14:32:17|Input port bits 5 to 4 of addr[5:0] are unused</Text>
-                    <Dynamic>CL246 :"/mnt/hgfs/ts7500-px4-fpga/can_fifo.v":32:14:32:17|Input port bits 5 to 4 of addr[5:0] are unused</Dynamic>
-                    <Navigation>CL246</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_fifo.v</Navigation>
-                    <Navigation>32</Navigation>
-                    <Navigation>14</Navigation>
-                    <Navigation>32</Navigation>
-                    <Navigation>17</Navigation>
-                    <Navigation>Input port bits 5 to 4 of addr[5:0] are unused</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CL159 :"/mnt/hgfs/ts7500-px4-fpga/can_fifo.v":36:14:36:26|Input fifo_selected is unused</Text>
-                    <Dynamic>CL159 :"/mnt/hgfs/ts7500-px4-fpga/can_fifo.v":36:14:36:26|Input fifo_selected is unused</Dynamic>
-                    <Navigation>CL159</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_fifo.v</Navigation>
-                    <Navigation>36</Navigation>
-                    <Navigation>14</Navigation>
-                    <Navigation>36</Navigation>
-                    <Navigation>26</Navigation>
-                    <Navigation>Input fifo_selected is unused</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CL190 :"/mnt/hgfs/ts7500-px4-fpga/can_btl.v":392:0:392:5|Optimizing register bit delay[3] to a constant 0</Text>
-                    <Dynamic>CL190 :"/mnt/hgfs/ts7500-px4-fpga/can_btl.v":392:0:392:5|Optimizing register bit delay[3] to a constant 0</Dynamic>
-                    <Navigation>CL190</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_btl.v</Navigation>
-                    <Navigation>392</Navigation>
-                    <Navigation>0</Navigation>
-                    <Navigation>392</Navigation>
-                    <Navigation>5</Navigation>
-                    <Navigation>Optimizing register bit delay[3] to a constant 0</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CL260 :"/mnt/hgfs/ts7500-px4-fpga/can_btl.v":392:0:392:5|Pruning register bit 3 of delay[3:0]</Text>
-                    <Dynamic>CL260 :"/mnt/hgfs/ts7500-px4-fpga/can_btl.v":392:0:392:5|Pruning register bit 3 of delay[3:0]</Dynamic>
-                    <Navigation>CL260</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_btl.v</Navigation>
-                    <Navigation>392</Navigation>
-                    <Navigation>0</Navigation>
-                    <Navigation>392</Navigation>
-                    <Navigation>5</Navigation>
-                    <Navigation>Pruning register bit 3 of delay[3:0] </Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CL159 :"/mnt/hgfs/ts7500-px4-fpga/can_registers.v":371:14:371:27|Input overload_frame is unused</Text>
-                    <Dynamic>CL159 :"/mnt/hgfs/ts7500-px4-fpga/can_registers.v":371:14:371:27|Input overload_frame is unused</Dynamic>
-                    <Navigation>CL159</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_registers.v</Navigation>
-                    <Navigation>371</Navigation>
-                    <Navigation>14</Navigation>
-                    <Navigation>371</Navigation>
-                    <Navigation>27</Navigation>
-                    <Navigation>Input overload_frame is unused</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CL246 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":45:14:45:21|Input port bits 6 to 5 of wb_adr_i[6:0] are unused</Text>
-                    <Dynamic>CL246 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":45:14:45:21|Input port bits 6 to 5 of wb_adr_i[6:0] are unused</Dynamic>
-                    <Navigation>CL246</Navigation>
-                    <Navigation>/home/jjh/Desktop/ts7500-px4-fpga/pwm.v</Navigation>
-                    <Navigation>45</Navigation>
-                    <Navigation>14</Navigation>
-                    <Navigation>45</Navigation>
-                    <Navigation>21</Navigation>
-                    <Navigation>Input port bits 6 to 5 of wb_adr_i[6:0] are unused</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - CL159 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":44:54:44:60|Input wb_we_i is unused</Text>
-                    <Dynamic>CL159 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":44:54:44:60|Input wb_we_i is unused</Dynamic>
-                    <Navigation>CL159</Navigation>
-                    <Navigation>/home/jjh/Desktop/ts7500-px4-fpga/pwm.v</Navigation>
-                    <Navigation>44</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>136</Navigation>
                     <Navigation>54</Navigation>
-                    <Navigation>44</Navigation>
+                    <Navigation>136</Navigation>
                     <Navigation>60</Navigation>
                     <Navigation>Input wb_we_i is unused</Navigation>
                 </Message>
@@ -3088,32 +3088,6 @@
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - FX367 :"/mnt/hgfs/ts7500-px4-fpga/can_ram.v":40:11:40:25|Instance can_ram_0_0_0_0 parameter type does not match module declaration.</Text>
-                    <Dynamic>FX367 :"/mnt/hgfs/ts7500-px4-fpga/can_ram.v":40:11:40:25|Instance can_ram_0_0_0_0 parameter type does not match module declaration.</Dynamic>
-                    <Navigation>FX367</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_ram.v</Navigation>
-                    <Navigation>40</Navigation>
-                    <Navigation>11</Navigation>
-                    <Navigation>40</Navigation>
-                    <Navigation>25</Navigation>
-                    <Navigation>Instance can_ram_0_0_0_0 parameter type does not match module declaration.</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - FX367 :"/mnt/hgfs/ts7500-px4-fpga/can_ram.v":40:11:40:25|Instance can_ram_0_0_0_0 parameter type does not match module declaration.</Text>
-                    <Dynamic>FX367 :"/mnt/hgfs/ts7500-px4-fpga/can_ram.v":40:11:40:25|Instance can_ram_0_0_0_0 parameter type does not match module declaration.</Dynamic>
-                    <Navigation>FX367</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/can_ram.v</Navigation>
-                    <Navigation>40</Navigation>
-                    <Navigation>11</Navigation>
-                    <Navigation>40</Navigation>
-                    <Navigation>25</Navigation>
-                    <Navigation>Instance can_ram_0_0_0_0 parameter type does not match module declaration.</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
                     <Text>WARNING - BN137 :"/mnt/hgfs/ts7500-px4-fpga/blockram_8kbyte.v":300:2:300:3|Found combinational loop during mapping at net sramcore.wrowner</Text>
                     <Dynamic>BN137 :"/mnt/hgfs/ts7500-px4-fpga/blockram_8kbyte.v":300:2:300:3|Found combinational loop during mapping at net sramcore.wrowner</Dynamic>
                     <Navigation>BN137</Navigation>
@@ -3140,15 +3114,15 @@
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - MT531 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":237:0:237:5|Found signal identified as System clock which controls 63 sequential elements including rstn.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Text>
-                    <Dynamic>MT531 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":237:0:237:5|Found signal identified as System clock which controls 63 sequential elements including rstn.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Dynamic>
+                    <Text>WARNING - MT531 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":237:0:237:5|Found signal identified as System clock which controls 62 sequential elements including rstn.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Text>
+                    <Dynamic>MT531 :"/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v":237:0:237:5|Found signal identified as System clock which controls 62 sequential elements including rstn.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Dynamic>
                     <Navigation>MT531</Navigation>
                     <Navigation>/mnt/hgfs/ts7500-px4-fpga/ts7500_top.v</Navigation>
                     <Navigation>237</Navigation>
                     <Navigation>0</Navigation>
                     <Navigation>237</Navigation>
                     <Navigation>5</Navigation>
-                    <Navigation>Found signal identified as System clock which controls 63 sequential elements including rstn.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </Navigation>
+                    <Navigation>Found signal identified as System clock which controls 62 sequential elements including rstn.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
@@ -3361,80 +3335,67 @@
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - BN132 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":136:14:136:26|Removing user instance pwm_generator.un2_counter4[15:0],  because it is equivalent to instance pwm_generator.un2_counter3[15:0]</Text>
-                    <Dynamic>BN132 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":136:14:136:26|Removing user instance pwm_generator.un2_counter4[15:0],  because it is equivalent to instance pwm_generator.un2_counter3[15:0]</Dynamic>
+                    <Text>WARNING - BN132 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":16:0:16:5|Removing sequential instance px4_logic_core.pwm_core4.counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core3.counter[15:0]</Text>
+                    <Dynamic>BN132 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":16:0:16:5|Removing sequential instance px4_logic_core.pwm_core4.counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core3.counter[15:0]</Dynamic>
                     <Navigation>BN132</Navigation>
-                    <Navigation>/home/jjh/Desktop/ts7500-px4-fpga/pwm.v</Navigation>
-                    <Navigation>136</Navigation>
-                    <Navigation>14</Navigation>
-                    <Navigation>136</Navigation>
-                    <Navigation>26</Navigation>
-                    <Navigation>Removing user instance pwm_generator.un2_counter4[15:0],  because it is equivalent to instance pwm_generator.un2_counter3[15:0]</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - BN132 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":122:14:122:26|Removing user instance pwm_generator.un2_counter3[15:0],  because it is equivalent to instance pwm_generator.un2_counter1[15:0]</Text>
-                    <Dynamic>BN132 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":122:14:122:26|Removing user instance pwm_generator.un2_counter3[15:0],  because it is equivalent to instance pwm_generator.un2_counter1[15:0]</Dynamic>
-                    <Navigation>BN132</Navigation>
-                    <Navigation>/home/jjh/Desktop/ts7500-px4-fpga/pwm.v</Navigation>
-                    <Navigation>122</Navigation>
-                    <Navigation>14</Navigation>
-                    <Navigation>122</Navigation>
-                    <Navigation>26</Navigation>
-                    <Navigation>Removing user instance pwm_generator.un2_counter3[15:0],  because it is equivalent to instance pwm_generator.un2_counter1[15:0]</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - BN132 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":126:0:126:5|Removing sequential instance pwm_generator.counter4[15:0],  because it is equivalent to instance pwm_generator.counter3[15:0]</Text>
-                    <Dynamic>BN132 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":126:0:126:5|Removing sequential instance pwm_generator.counter4[15:0],  because it is equivalent to instance pwm_generator.counter3[15:0]</Dynamic>
-                    <Navigation>BN132</Navigation>
-                    <Navigation>/home/jjh/Desktop/ts7500-px4-fpga/pwm.v</Navigation>
-                    <Navigation>126</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>16</Navigation>
                     <Navigation>0</Navigation>
-                    <Navigation>126</Navigation>
+                    <Navigation>16</Navigation>
                     <Navigation>5</Navigation>
-                    <Navigation>Removing sequential instance pwm_generator.counter4[15:0],  because it is equivalent to instance pwm_generator.counter3[15:0]</Navigation>
+                    <Navigation>Removing sequential instance px4_logic_core.pwm_core4.counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core3.counter[15:0]</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - BN132 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":112:0:112:5|Removing sequential instance pwm_generator.counter3[15:0],  because it is equivalent to instance pwm_generator.counter1[15:0]</Text>
-                    <Dynamic>BN132 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":112:0:112:5|Removing sequential instance pwm_generator.counter3[15:0],  because it is equivalent to instance pwm_generator.counter1[15:0]</Dynamic>
+                    <Text>WARNING - BN132 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":16:0:16:5|Removing sequential instance px4_logic_core.pwm_core3.counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core1.counter[15:0]</Text>
+                    <Dynamic>BN132 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":16:0:16:5|Removing sequential instance px4_logic_core.pwm_core3.counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core1.counter[15:0]</Dynamic>
                     <Navigation>BN132</Navigation>
-                    <Navigation>/home/jjh/Desktop/ts7500-px4-fpga/pwm.v</Navigation>
-                    <Navigation>112</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>16</Navigation>
                     <Navigation>0</Navigation>
-                    <Navigation>112</Navigation>
+                    <Navigation>16</Navigation>
                     <Navigation>5</Navigation>
-                    <Navigation>Removing sequential instance pwm_generator.counter3[15:0],  because it is equivalent to instance pwm_generator.counter1[15:0]</Navigation>
+                    <Navigation>Removing sequential instance px4_logic_core.pwm_core3.counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core1.counter[15:0]</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - BN132 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":98:0:98:5|Removing sequential instance pwm_generator.counter2[15:0],  because it is equivalent to instance pwm_generator.counter1[15:0]</Text>
-                    <Dynamic>BN132 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":98:0:98:5|Removing sequential instance pwm_generator.counter2[15:0],  because it is equivalent to instance pwm_generator.counter1[15:0]</Dynamic>
+                    <Text>WARNING - BN132 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":26:13:26:24|Removing user instance px4_logic_core.pwm_core4.un3_counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core3.un3_counter[15:0]</Text>
+                    <Dynamic>BN132 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":26:13:26:24|Removing user instance px4_logic_core.pwm_core4.un3_counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core3.un3_counter[15:0]</Dynamic>
                     <Navigation>BN132</Navigation>
-                    <Navigation>/home/jjh/Desktop/ts7500-px4-fpga/pwm.v</Navigation>
-                    <Navigation>98</Navigation>
-                    <Navigation>0</Navigation>
-                    <Navigation>98</Navigation>
-                    <Navigation>5</Navigation>
-                    <Navigation>Removing sequential instance pwm_generator.counter2[15:0],  because it is equivalent to instance pwm_generator.counter1[15:0]</Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - BN132 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":108:14:108:26|Removing user instance pwm_generator.un2_counter2[15:0],  because it is equivalent to instance pwm_generator.un2_counter1[15:0]</Text>
-                    <Dynamic>BN132 :"/home/jjh/Desktop/ts7500-px4-fpga/pwm.v":108:14:108:26|Removing user instance pwm_generator.un2_counter2[15:0],  because it is equivalent to instance pwm_generator.un2_counter1[15:0]</Dynamic>
-                    <Navigation>BN132</Navigation>
-                    <Navigation>/home/jjh/Desktop/ts7500-px4-fpga/pwm.v</Navigation>
-                    <Navigation>108</Navigation>
-                    <Navigation>14</Navigation>
-                    <Navigation>108</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
                     <Navigation>26</Navigation>
-                    <Navigation>Removing user instance pwm_generator.un2_counter2[15:0],  because it is equivalent to instance pwm_generator.un2_counter1[15:0]</Navigation>
+                    <Navigation>13</Navigation>
+                    <Navigation>26</Navigation>
+                    <Navigation>24</Navigation>
+                    <Navigation>Removing user instance px4_logic_core.pwm_core4.un3_counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core3.un3_counter[15:0]</Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - BN132 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":26:13:26:24|Removing user instance px4_logic_core.pwm_core3.un3_counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core1.un3_counter[15:0]</Text>
+                    <Dynamic>BN132 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":26:13:26:24|Removing user instance px4_logic_core.pwm_core3.un3_counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core1.un3_counter[15:0]</Dynamic>
+                    <Navigation>BN132</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>26</Navigation>
+                    <Navigation>13</Navigation>
+                    <Navigation>26</Navigation>
+                    <Navigation>24</Navigation>
+                    <Navigation>Removing user instance px4_logic_core.pwm_core3.un3_counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core1.un3_counter[15:0]</Navigation>
+                </Message>
+                <Message>
+                    <ID>2019991</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - BN132 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":16:0:16:5|Removing sequential instance px4_logic_core.pwm_core2.counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core1.counter[15:0]</Text>
+                    <Dynamic>BN132 :"/mnt/hgfs/ts7500-px4-fpga/pwm.v":16:0:16:5|Removing sequential instance px4_logic_core.pwm_core2.counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core1.counter[15:0]</Dynamic>
+                    <Navigation>BN132</Navigation>
+                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/pwm.v</Navigation>
+                    <Navigation>16</Navigation>
+                    <Navigation>0</Navigation>
+                    <Navigation>16</Navigation>
+                    <Navigation>5</Navigation>
+                    <Navigation>Removing sequential instance px4_logic_core.pwm_core2.counter[15:0],  because it is equivalent to instance px4_logic_core.pwm_core1.counter[15:0]</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
@@ -3706,19 +3667,6 @@
                     <Dynamic>@W|Block-path constraint from PORT "ts7500_top|fpga_25mhz_pad" to CLKNET "baud_clk" not forward annotated in -lpf file.</Dynamic>
                     <Navigation></Navigation>
                     <Navigation>Block-path constraint from PORT "ts7500_top|fpga_25mhz_pad" to CLKNET "baud_clk" not forward annotated in -lpf file. </Navigation>
-                </Message>
-                <Message>
-                    <ID>2019991</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - BN137 :"/mnt/hgfs/ts7500-px4-fpga/blockram_8kbyte.v":300:2:300:3|Found combinational loop during mapping at net sramcore.m4_0</Text>
-                    <Dynamic>BN137 :"/mnt/hgfs/ts7500-px4-fpga/blockram_8kbyte.v":300:2:300:3|Found combinational loop during mapping at net sramcore.m4_0</Dynamic>
-                    <Navigation>BN137</Navigation>
-                    <Navigation>/mnt/hgfs/ts7500-px4-fpga/blockram_8kbyte.v</Navigation>
-                    <Navigation>300</Navigation>
-                    <Navigation>2</Navigation>
-                    <Navigation>300</Navigation>
-                    <Navigation>3</Navigation>
-                    <Navigation>Found combinational loop during mapping at net sramcore.m4_0</Navigation>
                 </Message>
                 <Message>
                     <ID>2019991</ID>
@@ -4018,6 +3966,552 @@
                 </Message>
             </Engine>
             <Engine name="ngdbuild">
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/ppm_core/ppm_in_cnt_s_0_COUT[15]' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/ppm_core/ppm_in_cnt_s_0_COUT[15]</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/ppm_core/ppm_in_cnt_s_0_S1[15]' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/ppm_core/ppm_in_cnt_s_0_S1[15]</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/ppm_core/ppm_in_cnt_cry_0_S0[0]' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/ppm_core/ppm_in_cnt_cry_0_S0[0]</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_15_0_COUT_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_15_0_COUT_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_15_0_S0_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_15_0_S0_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_13_0_S0_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_13_0_S0_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_13_0_S1_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_13_0_S1_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_11_0_S0_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_11_0_S0_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_11_0_S1_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_11_0_S1_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_9_0_S0_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_9_0_S0_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_9_0_S1_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_9_0_S1_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_7_0_S0_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_7_0_S0_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_7_0_S1_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_7_0_S1_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_5_0_S0_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_5_0_S0_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_5_0_S1_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_5_0_S1_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_3_0_S0_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_3_0_S0_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_3_0_S1_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_3_0_S1_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_1_0_S0_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_1_0_S0_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_1_0_S1_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_1_0_S1_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_0_0_S0_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_0_0_S0_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core4/pwm_out8_cry_0_0_S1_2' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core4/pwm_out8_cry_0_0_S1_2</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_15_0_COUT_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_15_0_COUT_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_15_0_S0_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_15_0_S0_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_13_0_S0_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_13_0_S0_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_13_0_S1_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_13_0_S1_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_11_0_S0_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_11_0_S0_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_11_0_S1_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_11_0_S1_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_9_0_S0_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_9_0_S0_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_9_0_S1_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_9_0_S1_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_7_0_S0_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_7_0_S0_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_7_0_S1_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_7_0_S1_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_5_0_S0_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_5_0_S0_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_5_0_S1_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_5_0_S1_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_3_0_S0_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_3_0_S0_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_3_0_S1_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_3_0_S1_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_1_0_S0_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_1_0_S0_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_1_0_S1_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_1_0_S1_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_0_0_S0_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_0_0_S0_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core3/pwm_out8_cry_0_0_S1_1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core3/pwm_out8_cry_0_0_S1_1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_15_0_COUT_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_15_0_COUT_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_15_0_S0_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_15_0_S0_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_13_0_S0_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_13_0_S0_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_13_0_S1_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_13_0_S1_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_11_0_S0_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_11_0_S0_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_11_0_S1_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_11_0_S1_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_9_0_S0_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_9_0_S0_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_9_0_S1_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_9_0_S1_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_7_0_S0_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_7_0_S0_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_7_0_S1_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_7_0_S1_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_5_0_S0_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_5_0_S0_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_5_0_S1_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_5_0_S1_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_3_0_S0_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_3_0_S0_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_3_0_S1_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_3_0_S1_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_1_0_S0_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_1_0_S0_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_1_0_S1_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_1_0_S1_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_0_0_S0_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_0_0_S0_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core2/pwm_out8_cry_0_0_S1_0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core2/pwm_out8_cry_0_0_S1_0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_15_0_COUT' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_15_0_COUT</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_15_0_S0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_15_0_S0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_13_0_S0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_13_0_S0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_13_0_S1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_13_0_S1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_11_0_S0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_11_0_S0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_11_0_S1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_11_0_S1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_9_0_S0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_9_0_S0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_9_0_S1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_9_0_S1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_7_0_S0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_7_0_S0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_7_0_S1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_7_0_S1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_5_0_S0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_5_0_S0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_5_0_S1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_5_0_S1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_3_0_S0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_3_0_S0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_3_0_S1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_3_0_S1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_1_0_S0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_1_0_S0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_1_0_S1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_1_0_S1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_0_0_S0' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_0_0_S0</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/pwm_out8_cry_0_0_S1' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/pwm_out8_cry_0_0_S1</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/counter_s_0_COUT[15]' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/counter_s_0_COUT[15]</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/counter_s_0_S1[15]' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/counter_s_0_S1[15]</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'px4_logic_core/pwm_core1/counter_cry_0_S0[0]' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>px4_logic_core/pwm_core1/counter_cry_0_S0[0]</Dynamic>
+                </Message>
                 <Message>
                     <ID>1166052</ID>
                     <Severity>Warning</Severity>
@@ -4819,531 +5313,6 @@
                 <Message>
                     <ID>1166052</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_15_0_COUT' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_15_0_COUT</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_15_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_15_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_13_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_13_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_13_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_13_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_11_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_11_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_11_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_11_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_9_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_9_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_9_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_9_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_7_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_7_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_7_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_7_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_5_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_5_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_5_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_5_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_3_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_3_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_3_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_3_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_1_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_1_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_1_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_1_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_0_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_0_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out18_cry_0_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out18_cry_0_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_15_0_COUT' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_15_0_COUT</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_15_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_15_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_13_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_13_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_13_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_13_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_11_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_11_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_11_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_11_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_9_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_9_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_9_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_9_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_7_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_7_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_7_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_7_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_5_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_5_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_5_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_5_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_3_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_3_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_3_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_3_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_1_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_1_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_1_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_1_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_0_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_0_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out28_cry_0_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out28_cry_0_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_15_0_COUT' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_15_0_COUT</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_15_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_15_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_13_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_13_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_13_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_13_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_11_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_11_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_11_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_11_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_9_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_9_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_9_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_9_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_7_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_7_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_7_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_7_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_5_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_5_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_5_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_5_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_3_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_3_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_3_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_3_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_1_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_1_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_1_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_1_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_0_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_0_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out38_cry_0_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out38_cry_0_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_15_0_COUT' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_15_0_COUT</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_15_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_15_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_13_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_13_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_13_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_13_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_11_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_11_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_11_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_11_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_9_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_9_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_9_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_9_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_7_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_7_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_7_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_7_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_5_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_5_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_5_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_5_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_3_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_3_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_3_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_3_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_1_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_1_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_1_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_1_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_0_0_S0' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_0_0_S0</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/pwm_out48_cry_0_0_S1' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/pwm_out48_cry_0_0_S1</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/counter1_s_0_COUT[15]' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/counter1_s_0_COUT[15]</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/counter1_s_0_S1[15]' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/counter1_s_0_S1[15]</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'pwm_generator/counter1_cry_0_S0[0]' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>pwm_generator/counter1_cry_0_S0[0]</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
                     <Text>WARNING - logical net 'mwincore/adr_5_cry_14_0_COUT' has no load</Text>
                     <Dynamic>logical</Dynamic>
                     <Dynamic>mwincore/adr_5_cry_14_0_COUT</Dynamic>
@@ -5561,6 +5530,20 @@
                 <Message>
                     <ID>1166052</ID>
                     <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'uartwbm_dat_i[14]' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>uartwbm_dat_i[14]</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
+                    <Text>WARNING - logical net 'xuart_tx[7]' has no load</Text>
+                    <Dynamic>logical</Dynamic>
+                    <Dynamic>xuart_tx[7]</Dynamic>
+                </Message>
+                <Message>
+                    <ID>1166052</ID>
+                    <Severity>Warning</Severity>
                     <Text>WARNING - logical net 'xuart_txen[0]' has no load</Text>
                     <Dynamic>logical</Dynamic>
                     <Dynamic>xuart_txen[0]</Dynamic>
@@ -5585,13 +5568,6 @@
                     <Text>WARNING - logical net 'xuart_txen[7]' has no load</Text>
                     <Dynamic>logical</Dynamic>
                     <Dynamic>xuart_txen[7]</Dynamic>
-                </Message>
-                <Message>
-                    <ID>1166052</ID>
-                    <Severity>Warning</Severity>
-                    <Text>WARNING - logical net 'N_91' has no load</Text>
-                    <Dynamic>logical</Dynamic>
-                    <Dynamic>N_91</Dynamic>
                 </Message>
                 <Message>
                     <ID>1166052</ID>
@@ -9411,8 +9387,8 @@
                 <Message>
                     <ID>1163101</ID>
                     <Severity>Warning</Severity>
-                    <Text>WARNING - DRC complete with 770 warnings</Text>
-                    <Dynamic>770</Dynamic>
+                    <Text>WARNING - DRC complete with 774 warnings</Text>
+                    <Dynamic>774</Dynamic>
                 </Message>
             </Engine>
         </Task>

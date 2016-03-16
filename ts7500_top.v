@@ -615,11 +615,11 @@ always @(*) begin
     dio_reg[34] = 1'bz;
     dio_reg[30] = xuart_txen[6];
   end
-  xuart_rx[7] = dio_pad[36];
+  /*xuart_rx[7] = dio_pad[36];
   if (xuart_active[7]) begin
     dio_reg[35] = xuart_tx[7];
     dio_reg[36] = 1'bz;
-  end
+  end*/
 
   /* SPI controller hijacks some pins when LUN#1, #2, or #3 is active */
   if (spi_opt) begin
@@ -635,7 +635,8 @@ always @(*) begin
       dio_reg[12] = 1'bz;
     end
   end
-    
+  
+  dio_reg[36] = tmp_o;
   dio_reg[37] = pwm_gen_out1;
   dio_reg[38] = pwm_gen_out2;
   dio_reg[39] = pwm_gen_out3;
@@ -719,27 +720,31 @@ wb_memwindow16to32 mwincore(
  * px4 uav pwm generator
  ****************************************************************************/
 
-reg pwmwbs_en;
-wire [15:0] pwmwbs_dat_o;
-wire pwmwbs_ack_o;
+reg px4wbs_en;
+wire [15:0] px4wbs_dat_o;
+wire px4wbs_ack_o;
 
 wire pwm_gen_out1;
 wire pwm_gen_out2;
 wire pwm_gen_out3;
 wire pwm_gen_out4;
 
-pwm pwm_generator(
+wire tmp_o;
+
+px4_logic px4_logic_core(
   .wb_clk_i(wb_clk),                                        
   .wb_rst_i(wb_rst),                                        
                                                                      
-  .wb_cyc_i(spiwbm_cyc_o && pwmwbs_en),                     
-  .wb_stb_i(spiwbm_stb_o && pwmwbs_en),                     
+  .wb_cyc_i(spiwbm_cyc_o && px4wbs_en),                     
+  .wb_stb_i(spiwbm_stb_o && px4wbs_en),                     
   .wb_adr_i(spiwbm_adr_o),                                  
   .wb_dat_i(spiwbm_dat_o), 
-  .wb_dat_o(pwmwbs_dat_o),
-  .wb_ack_o(pwmwbs_ack_o), 
+  .wb_dat_o(px4wbs_dat_o),
+  .wb_ack_o(px4wbs_ack_o), 
 
   .clk_in(fpga_25mhz_pad),
+  .ppm_in(dio_pad[35]),
+  .temp_out(tmp_o),
   .pwm_out1(pwm_gen_out1),
   .pwm_out2(pwm_gen_out2),
   .pwm_out3(pwm_gen_out3),
@@ -757,7 +762,7 @@ end
 /****************************************************************************
  * DEPRECATED - SJA1000C compatible CAN controller
  ****************************************************************************/
-wire canwbs_cyc_i, canwbs_stb_i, canwbs_we_i, canwbs_ack;
+/*wire canwbs_cyc_i, canwbs_stb_i, canwbs_we_i, canwbs_ack;
 wire [7:0] canwbs_dat_i, canwbs_dat_o;
 wire [15:0] canwbs_adr_i;
 assign can_wbaccess = canwbs_cyc_i && canwbs_stb_i;
@@ -777,13 +782,13 @@ can_top cancore(
   .rx_i(dio_pad[24]),
   .tx_o(can_tx),
   .irq_on(can_irqn)
-);
+);*/
 
 
 /****************************************************************************
  * DEPRECATED - SPI SBUS CAN window (for 256 by 8-bit SJA1000C CAN address space)
  ****************************************************************************/
-reg mwinwbs2_en;
+/*reg mwinwbs2_en;
 wire [15:0] mwinwbs2_dat_o;
 wire mwinwbs2_ack_o;
 wb_memwindow16to8 mwincore2(
@@ -805,7 +810,7 @@ wb_memwindow16to8 mwincore2(
   .wbm_dat_o(canwbs_dat_i),
   .wbm_dat_i(canwbs_dat_o),
   .wbm_ack_i(canwbs_ack_o)
-);
+);*/
 
 
 /****************************************************************************
@@ -820,8 +825,7 @@ always @(*) begin
   spiwbs_en = 1'b0;
   scwbs_en = 1'b0;
   spiwbm2_en = 1'b0;
-  mwinwbs2_en = 1'b0;
-  pwmwbs_en = 1'b0;
+  px4wbs_en = 1'b0;
 
   spiwbm_dat_i = 16'hxxxx;
   spiwbm_ack_i = 1'b1;
@@ -832,10 +836,10 @@ always @(*) begin
    * Top level address decode:
    *
    * 0x0 - SD card
-   * 0x10 - NAND controller (not in TS-7500)
+   * 0x10 - px4 (NAND controller (not in TS-7500) deprecated)
    * 0x20 - XUART/XUART memwindow
    * 0x40 - SPI interface (for NOR flash)
-   * 0x50 - px4 uav pwm (CAN memwindow deprecated)
+   * 0x50 - px4 (CAN memwindow deprecated)
    * 0x60 - syscon
    *
    * 4 bits of address come from the SBUS interface, 2 bits of address come
@@ -847,14 +851,17 @@ always @(*) begin
    */
   case (spiwbm_adr_o[6:5])
   2'd0: begin
-    sdwbs1_en = 1'b1;
-    spiwbm_dat_i = sdwbs1_dat_o;
-    spiwbm_ack_i = sdcard_opt ? sdwbs1_ack_o : 1'b1;
+    if (spiwbm_adr_o[4:0] >= 5'h10) begin
+	  px4wbs_en = 1'b1;
+      spiwbm_dat_i = px4wbs_dat_o;
+      spiwbm_ack_i = px4wbs_ack_o;
+	end else begin
+      sdwbs1_en = 1'b1;
+      spiwbm_dat_i = sdwbs1_dat_o;
+      spiwbm_ack_i = sdcard_opt ? sdwbs1_ack_o : 1'b1;
+	end
   end
   2'd1: begin
-    /*pwmwbs_en = 1'b1;
-    spiwbm_dat_i = pwmwbs_dat_o;
-    spiwbm_ack_i = pwmwbs_ack_o;*/
 	if (spiwbm_adr_o[4:0] >= 5'h1c) begin
       mwinwbs_en = 1'b1;
       spiwbm_dat_i = mwinwbs_dat_o;
@@ -867,12 +874,9 @@ always @(*) begin
   end
   2'd2: begin
     if (spiwbm_adr_o[4:0] >= 5'h10) begin
-	  pwmwbs_en = 1'b1;
-      spiwbm_dat_i = pwmwbs_dat_o;
-      spiwbm_ack_i = pwmwbs_ack_o;
-      /*mwinwbs2_en = 1'b1;
-      spiwbm_dat_i = mwinwbs2_dat_o;
-      spiwbm_ack_i = can_opt ? mwinwbs2_ack_o : 1'b1;*/
+	  px4wbs_en = 1'b1;
+      spiwbm_dat_i = px4wbs_dat_o;
+      spiwbm_ack_i = px4wbs_ack_o;
     end else begin
       spiwbs_en = 1'b1;
       spiwbm_dat_i = spiwbs_dat_o;
