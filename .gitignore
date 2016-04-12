@@ -1,4 +1,7 @@
 .*.swp
+.build_status
+message.xml
+.run_manager.ini
 automake.log
 backup
 backup/ts7500_opencore.srr

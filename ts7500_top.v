@@ -636,7 +636,8 @@ always @(*) begin
     end
   end
   
-  dio_reg[36] = tmp_o;
+  //dio_reg[36] = tmp_o;
+  dio_reg[36] = px4_1mhz_clk;
   dio_reg[37] = pwm_gen_out1;
   dio_reg[38] = pwm_gen_out2;
   dio_reg[39] = pwm_gen_out3;
@@ -717,7 +718,23 @@ wb_memwindow16to32 mwincore(
 );
 
 /****************************************************************************
- * px4 uav pwm generator
+ * px4 internal 1mhz clock generator
+ ****************************************************************************/
+
+reg px4_1mhz_clk = 0;
+reg [7:0] counter = 0;
+
+always @(posedge pll_100mhz) begin
+	if( counter == 8'd49 ) begin
+		px4_1mhz_clk <= !px4_1mhz_clk;
+		counter <= 0;
+	end else begin
+		counter <= counter + 1;
+	end
+end
+
+/****************************************************************************
+ * px4 fpga logic (PWM, PPM logic)
  ****************************************************************************/
 
 reg px4wbs_en;
@@ -742,7 +759,7 @@ px4_logic px4_logic_core(
   .wb_dat_o(px4wbs_dat_o),
   .wb_ack_o(px4wbs_ack_o), 
 
-  .clk_in(fpga_25mhz_pad),
+  .px4_1mhz_clk_in(px4_1mhz_clk),
   .ppm_in(dio_pad[35]),
   .temp_out(tmp_o),
   .pwm_out1(pwm_gen_out1),
@@ -750,14 +767,7 @@ px4_logic px4_logic_core(
   .pwm_out3(pwm_gen_out3),
   .pwm_out4(pwm_gen_out4)
 );
-/*
-always @(*) begin
-  dio_reg[37] = pwm_gen_out1;
-  dio_reg[38] = pwm_gen_out2;
-  dio_reg[39] = pwm_gen_out3;
-  dio_reg[40] = pwm_gen_out4;
-end
-*/
+
 
 /****************************************************************************
  * DEPRECATED - SJA1000C compatible CAN controller

@@ -11,6 +11,10 @@ input [15:0] width;
 
 output reg pwm_out;
 
+parameter mhz_rate = 1000000;
+parameter pwm_rate = 400;
+parameter ARR = mhz_rate / pwm_rate;
+
 reg [15:0] counter;
 
 always @(posedge clk_in or posedge wb_rst_i) begin
@@ -23,7 +27,12 @@ always @(posedge clk_in or posedge wb_rst_i) begin
 		end else begin
 			pwm_out <= 0;
 		end
-		counter <= counter + 1;	
+			
+		if( counter < 16'd2499 ) begin
+			counter <= counter + 1;
+		end else begin
+			counter <= 0;
+		end
 	end
 end
 
@@ -66,7 +75,6 @@ assign channel7 = channel_val[6];
 assign channel8 = channel_val[7];
 
 reg [15:0] channel_val [0:8];
-reg [4:0] us_counter;
 reg [15:0] ppm_in_cnt;
 reg [2:0] channel_cnt;
 reg prev_ppm_in;
@@ -74,7 +82,6 @@ reg rc_found;
 
 always @(posedge clk_in or posedge wb_rst_i) begin
 	if(wb_rst_i) begin
-		us_counter <= 0;
 		ppm_in_cnt <= 0;
 		channel_cnt <= 0;
 		prev_ppm_in <= 1;
@@ -87,28 +94,24 @@ always @(posedge clk_in or posedge wb_rst_i) begin
 		channel_val[6] <= 0;
 		channel_val[7] <= 0;
 	end else begin
-		if(us_counter == 5'd24) begin
-			us_counter <= 0;
-			ppm_in_cnt <= ppm_in_cnt + 1;
-			if(ppm_in == 1 && prev_ppm_in == 0) begin
-				if(ppm_in_cnt > 16'd3000) begin
-					channel_cnt <= 0;
-				end else begin
-					channel_val[channel_cnt] <= ppm_in_cnt;
-					channel_cnt <= channel_cnt + 1;
-				end
-				ppm_in_cnt <= 0;
-				prev_ppm_in <= 1;
-			end else if(ppm_in == 0 && prev_ppm_in == 1) begin
-				prev_ppm_in <= 0;
+		ppm_in_cnt <= ppm_in_cnt + 1;
+		if(ppm_in == 1 && prev_ppm_in == 0) begin
+			if(ppm_in_cnt > 16'd3000) begin
+				channel_cnt <= 0;
+			end else begin
+				channel_val[channel_cnt] <= ppm_in_cnt;
+				channel_cnt <= channel_cnt + 1;
 			end
-		end else begin
-			us_counter <= us_counter + 1;
+			ppm_in_cnt <= 0;
+			prev_ppm_in <= 1;
+		end else if(ppm_in == 0 && prev_ppm_in == 1) begin
+			prev_ppm_in <= 0;
 		end
 	end
 end
 
 endmodule
+
 
 module px4_logic(
 	wb_clk_i,
@@ -122,7 +125,7 @@ module px4_logic(
 	wb_dat_o,
 	wb_ack_o,
 
-	clk_in,
+	px4_1mhz_clk_in,
 	ppm_in,
 	temp_out,
 	pwm_out1,
@@ -139,7 +142,7 @@ input [15:0]  wb_dat_i;
 output [15:0] wb_dat_o;
 output        wb_ack_o;
 
-input clk_in;
+input px4_1mhz_clk_in;
 input ppm_in;
 output pwm_out1;
 output pwm_out2;
@@ -176,28 +179,28 @@ end
 
 pwm pwm_core1(
 	.wb_rst_i(wb_rst_i),
-	.clk_in(clk_in),
+	.clk_in(px4_1mhz_clk_in),
 	.width(width1),
 	.pwm_out(pwm_out1)
 );
 
 pwm pwm_core2(
 	.wb_rst_i(wb_rst_i),
-	.clk_in(clk_in),
+	.clk_in(px4_1mhz_clk_in),
 	.width(width2),
 	.pwm_out(pwm_out2)
 );
 
 pwm pwm_core3(
 	.wb_rst_i(wb_rst_i),
-	.clk_in(clk_in),
+	.clk_in(px4_1mhz_clk_in),
 	.width(width3),
 	.pwm_out(pwm_out3)
 );
 
 pwm pwm_core4(
 	.wb_rst_i(wb_rst_i),
-	.clk_in(clk_in),
+	.clk_in(px4_1mhz_clk_in),
 	.width(width4),
 	.pwm_out(pwm_out4)
 );
@@ -213,7 +216,7 @@ wire [15:0] channel_val8;
 
 ppm ppm_core(
 	.wb_rst_i(wb_rst_i),
-	.clk_in(clk_in),
+	.clk_in(px4_1mhz_clk_in),
 	.ppm_in(ppm_in),
 	.channel1(channel_val1),
 	.channel2(channel_val2),
